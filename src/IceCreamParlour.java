@@ -22,7 +22,7 @@ public class IceCreamParlour {
             }
 
             for(int i=0; i<n; i++) {
-                for (int j=i; j < n; j++){
+                for (int j=i+1; j < n; j++){
                     if(a[i]+a[j] == m){
                         System.out.print(i+1 + " ");
                         System.out.print(j+1);
